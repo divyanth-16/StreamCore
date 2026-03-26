@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "a professional project that covers all concepts of backend ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "author": "Divyanth Penki",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  }
 }
